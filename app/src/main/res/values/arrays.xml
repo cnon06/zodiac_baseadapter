@@ -23,4 +23,22 @@
 
     </string-array>
 
+    <string-array name="zodiacDates">
+
+        <item>"21 March – 20 April"</item>
+        <item>"20 April – 21 May"</item>
+        <item>"21 May – 21 June"</item>
+        <item>"21 June – 23 July"</item>
+        <item>"23 July – 23 August"</item>
+        <item>"23 August – 23 September"</item>
+        <item>"23 September – 23 October"</item>
+        <item>"23 October – 22 November"</item>
+        <item>"23 November – 22 December"</item>
+        <item>"22 December – 20 January"</item>
+        <item>"20 January – 19 February"</item>
+        <item>"19 February – 21 March"</item>
+
+    </string-array>
+
+
 </resources>

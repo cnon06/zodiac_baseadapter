@@ -8,11 +8,16 @@
 
     <ListView
         android:id="@+id/listZodiac"
-        android:layout_width="396dp"
-        android:layout_height="720dp"
-        android:layout_marginTop="5dp"
+        android:layout_width="380dp"
+        android:layout_height="650dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:entries="@array/zodiac"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
