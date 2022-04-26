@@ -34,7 +34,8 @@ class MainActivity : AppCompatActivity() {
         var listView = findViewById<ListView>(R.id.listZodiac)
 
 
-        listView.adapter = zodiacArrayAdapter(this,R.layout.single_row,R.id.tvZodiacName,zodiac,zodiacDates,zodiacImages)
+        //listView.adapter = zodiacArrayAdapter(this,R.layout.single_row,R.id.tvZodiacName,zodiac,zodiacDates,zodiacImages)
+        listView.adapter = zodiacBaseAdapter(this)
 
 
         listView.setOnItemClickListener { adapterView, view, i, l ->
